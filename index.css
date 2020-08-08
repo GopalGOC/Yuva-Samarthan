@@ -1,0 +1,377 @@
+/*===========================================Common======================================================*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'El Messiri', sans-serif;
+}
+.fakecontainer{
+	background-color: #00264D;
+	width: 100%;
+	height: 50px;
+}
+.backimg2{
+	width: 100%;
+	height: 100vh;
+	background-image: url('image4.jpg');
+	background-repeat: repeat-y;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.backimg3{
+	width: 100%;
+	height: 100vh;
+	background-image: url('image5.jpg');
+	background-repeat: repeat-y;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.btn-yuva1{
+	background-color: #00264D;
+	color: #FF3300;
+	border: 1px solid #FF3300;
+	border-radius: 5px;
+}
+.btn-yuva2{
+	color: #00264D;
+	background-color: #FF3300;
+	border: 1px solid #FF3300;
+	border-radius: 5px;
+}
+/*===========================================Common End==================================================*/
+
+
+/*===========================================Header======================================================*/
+.main-header{
+	background-color: #00264D;
+	color: #FF3300;
+}
+.logo_image{
+	width: 150px;
+	height: 120px;
+	margin-left: -30px;
+}
+.sitename p{
+	font-family: 'Amita', cursive;
+	font-size: 45px;
+	color: #FF3300;
+	margin-top: -100px;
+	margin-left: 80px;
+}
+.sitemoto p{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+	color: #FF3300;
+	margin-top: -20px;
+	margin-left: 0px;
+}
+.main-header h2{
+	background-color: #00264D;
+	color: #FF3300;
+}
+
+/*===========================================Navigation Bar==============================================*/
+a:hover{
+  	transform: scale(1.2);
+  	transition:all .3s ease-in-out;
+}
+.navbar{
+	background-color: #00264D;
+	border: 3px double #FF3300;
+	border-radius: 10px;
+}
+.navbar li{
+	padding: 0 18px;
+}
+.navbar a{
+	font-size: 18px;
+	color: #FF3300;
+}
+.navbar-toggler{
+	background-image: linear-gradient(-45deg, #FF3300, #00264D, #FF3300);
+}
+.navbar button:hover{
+	color: #FF3300;
+	background-color: #00264D;
+	transform: scale(1.1);
+  	transition:all .3s ease-in-out;
+}
+/*===========================================Header End==================================================*/
+/*===========================================Navigation Bar End==========================================*/
+
+
+/*===========================================Home========================================================*/
+.mainHome{
+	background-color: #00264D;
+}
+.mainHome ol{	
+	color: #FF3300;
+}
+.carousel-fade-design{
+    border: 2px solid #FF3300;
+    border-radius: 25px;
+    height: 554px;
+}
+.carousel-fade-design img{
+    border-radius: 25px;
+    height: 550px;
+}
+.carousel-fade-design li{
+    width: 5px;
+    height: 5px;
+    border: 5px solid #FF3300;
+}
+.carousel-indicators-design .active{
+    width: 5px;
+    height: 5px;
+    background-color: #FF3300;
+}
+.carousel-inner-design a:hover{
+	background-color: #FF3300;
+	color: #00264D;
+	transform: scale(1.1);
+  	transition:all .3s ease-in-out;
+}
+/*===========================================Home End====================================================*/
+
+
+/*===========================================About=======================================================*/
+.mainAbout{
+	background-color: #00264D;
+}
+.mainAbout h2{
+	padding: 15px;
+	color: #FF3300; 
+}
+.About{
+	background-color: #00264D;
+	color: #FF3300;
+	font-weight: 500;
+	font-size: 20px;
+	border: 2px solid #FF3300;
+	border-radius: 25px;
+	padding: 10px;
+}
+/*===========================================About End===================================================*/
+
+
+/*===========================================Objective===================================================*/
+.mainObjective{
+	background-color: #00264D;
+}
+.mainObjective h2{
+	padding: 15px;
+	color: #FF3300; 
+}
+.Objective{
+	background-color: #00264D;
+	color: #FF3300;
+	font-weight: 500;
+	font-size: 20px;
+	border: 2px solid #FF3300;
+	border-radius: 25px;
+	padding: 10px;
+}
+/*===========================================Objective End===============================================*/
+
+
+/*===========================================Events======================================================*/
+.mainEvents{
+	background-color: #00264D;
+}
+.mainEvents img:hover{
+  	transform: scale(1.3);
+}
+.Event{
+	border: 2px solid #FF3300;
+    border-radius: 25px;
+}
+.Event h2{
+	padding: 15px;
+	color: #FF3300; 
+}
+.eventcol1 div{
+	height: 250px;
+	width: 250px;
+	border: 2px solid #FF3300;
+	margin: 15px;
+	overflow: hidden;
+}
+.eventcol1 img{
+	height: 250px;
+	width: 250px;
+	margin-left: -12px;
+	transition:all .3s ease-in-out;
+}
+.eventcol2 div{
+	height: 250px;
+	width: 250px;
+	border: 2px solid #FF3300;
+	margin: 15px;
+	overflow: hidden;
+}
+.eventcol2 img{
+	height: 250px;
+	width: 250px;
+	margin-left: -12px;
+	transition:all .5s ease-in-out;
+}
+/*===========================================Events End==================================================*/
+
+
+/*===========================================FAQ=========================================================*/
+.mainFAQ{
+	background-color: #00264D;
+	background-attachment: fixed;
+}
+.FAQ{
+	width: 100%;
+	height: auto;
+	border: 2px solid #FF3300;
+	border-radius: 25px;
+	background-color: #00264D;
+	position: relative;
+}
+.FAQ button:hover{
+  	color: #FF3300;
+}
+#accordionExample .card{
+	margin-bottom: 20px;
+	border: 1px dashed #FF3300;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.FAQ h2{
+	padding: 15px;
+	color: #FF3300; 
+}
+.FAQ button{
+	color: #FF3300; 
+	text-decoration: none;
+}
+.card{
+	background-color: #00264D;
+	color: #FF3300;
+	font-size: 15px;
+}
+/*===========================================FAQ End=====================================================*/
+
+
+/*===========================================Donate======================================================*/
+.mainDonate{
+	background-color: #00264D;
+}
+.Donate{
+	width: 100%;
+	height: 500px;
+	border: 2px solid #FF3300;
+	border-radius: 25px;
+	background-color: #00264D;
+}
+.Donate h2{
+	padding: 15px;
+	color: #FF3300; 
+}
+.carousel2design{
+	height: 100px;
+	margin-top: -150px;
+}
+.carousel2design p{
+	color: #FF3300;
+}
+/*===========================================Donate End==================================================*/
+
+
+/*===========================================Contact=====================================================*/
+.mainContact{	
+	background-color: #00264D;
+}
+.Contact{
+	background-color: #00264D;
+	width: 100%;
+	height: auto;
+	border: 2px solid #FF3300;
+	border-radius: 25px;
+	transition: none;
+}
+.Contact h2{
+	padding: 15px;
+	color: #FF3300; 
+}
+.Contact p{
+	color: #FF3300;
+	text-align: center;
+}
+.contactsec1{
+	margin-left: 80px;
+}
+.contactsec1 a{
+	color: #FF3300;
+}
+.contactsec1 li{
+	margin: 10px;
+}
+.contactsec2{
+	margin-left: 80px;
+}
+.contactsec2 a{
+	color: #FF3300;
+	margin: 10px;
+}
+.Contact i{
+	margin-right: 5px;
+}
+/*===========================================Contact End=================================================*/
+
+
+/*===========================================Footer======================================================*/
+.social i{
+	margin: 5px;
+}
+.social i:hover{
+	transform: scale(1.2);
+  	transition:all .3s ease-in-out;
+}
+/*===========================================Footer End==================================================*/
+
+
+/*===========================================Media Tag===================================================*/
+@media(max-width: 1199px) and (min-width: 1150px){
+.navbar li{
+	padding: 0 15px;
+}
+}
+@media(max-width: 1149px) and (min-width: 1080px){
+.navbar li{
+	padding: 0 12px;
+}
+}
+@media(max-width: 1079px) and (min-width: 992px){
+.navbar li{
+	padding: 0 8px;
+}
+}
+@media(max-width: 656px) and (min-width: 576px){
+.logo_image{
+	width: 120px;
+	height: 90px;
+	margin-left: -30px;
+}
+.sitename p{
+	font-family: 'Amita', cursive;
+	font-size: 30px;
+	color: #FF3300;
+	margin-top: -70px;
+	margin-left: 80px;
+}
+.sitemoto p{
+	font-family: 'Kalam', cursive;
+	font-size: 15px;
+	color: #FF3300;
+	margin-top: -20px;
+	margin-left: 0px;
+}
+}
+@media(max-width: 475px) and (min-width: 280px){
+
+}
+/*===========================================Media Tag End===============================================*/
